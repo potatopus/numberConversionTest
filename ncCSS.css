@@ -1,0 +1,30 @@
+.body {
+  padding: 50px;
+  margin: 0;
+  background-image: linear-gradient(to right top, #08090c, #0c0d12, #0f1117, #11141b, #13171f, #161b25, #19202a, #1c2430, #222b39, #283142, #2e384b, #343f54);
+  background-attachment: fixed;
+  color: #e0e1dd;
+}
+
+.options {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #505860;
+  padding: 40px;
+}
+
+.result {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: whitesmoke;
+  color: #08090c;
+  padding: 30px;
+}
+
+select {
+  border-radius: 15px;
+  padding: 2px;
+}
+
+.button {
+  border-radius: 10px;
+  padding-top: 2px;
+}
