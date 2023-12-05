@@ -5,7 +5,7 @@ function getOption() {
 
     switch (selectElement) {
         case "dec":
-            decToAny();
+            decChecker();
             break;
         case "bin":
             binChecker();
@@ -22,6 +22,17 @@ function getOption() {
 function reset() {
     document.getElementById('numberInput').value = null;
     document.getElementById("result").innerHTML = "THIS IS WHERE THE RESULT SHOULD BE DISPPLAYED";
+}
+
+let decChecker = function() {
+    let numberInput = Number(document.getElementById("numberInput").value);
+    var isDec = Number.isNaN(numberInput);
+    if (isDec == false){
+        decToAny();
+    }
+    else {
+        result.innerHTML = "NUMBER IS NOT DECIMAL";
+    }
 }
 
 let decToAny = function () {
